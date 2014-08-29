@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Modify this script so that it accepts text from standard input,
+#  deleting any repeated adjacent instances of the space character,
+#  printing the result to standard output
+
+# In other words, "This    is an   example   of text     with too many    extra   spaces.  "
+#  should be converted to "This is an example of text with too many extra spaces. "
+
+# HINT: The solution to this problem is discussed in the assigned reading
+
