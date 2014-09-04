@@ -42,6 +42,7 @@ Your workflow should be as follows:
 Edit one of the scripts, using the text editor of your choice
 
 Commit your changes using git
+
 * git add FILE_YOU_EDITED.sh
 * git commit -m "A BRIEF MESSAGE EXPLAINING WHAT YOU CHANGED"
 * git push
