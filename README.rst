@@ -25,3 +25,9 @@ Before you begin the assignment, you may find it helpful to re-read the man page
 * cut
 * ls
 * tr
+
+
+Use of git is required
+=======================
+
+You are required to use git for this assignment.
