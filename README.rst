@@ -31,3 +31,18 @@ Use of git is required
 =======================
 
 You are required to use git for this assignment.
+
+To check out the homework assignment:
+
+* ssh YOUR_NETID@ling402.atlas.uiuc.edu
+* git clone https://github.com/2014-Fall-UIUC-LING402/YOUR_GITHUB_USERNAME-hw1.git
+
+Your workflow should be as follows:
+
+* Edit one of the scripts, using the text editor of your choice
+* Commit your changes using git
+** git add FILE_YOU_EDITED.sh
+** git commit -m "A BRIEF MESSAGE EXPLAINING WHAT YOU CHANGED"
+** git push
+
+You should follow the above steps after every edit of the file. 
