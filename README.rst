@@ -48,3 +48,16 @@ Next, commit your changes using git:
 * git push
 
 You should follow the above steps after every edit of the file. 
+
+
+Testing your scripts
+====================
+
+It is your responsibility to test each script to verify that it functions correctly.
+
+**In addition to** testing that you perform, we have a very basic testing framework that you may use.
+
+To use this:
+
+./run-unit-test FILE_YOU_EDITED.sh
+
