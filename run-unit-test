@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+
+   echo "Usage: $0 script_to_test.sh"
+
+   exit 1
+
+else
+
+    BASENAME=${1%.sh}
+    BASENAME=${BASENAME##*/}
+    UNIT_TEST="/home/lanes/Homeworks/hw1.unit-tests/${BASENAME}.unit_test.sh"
+
+    ${UNIT_TEST}
+
+fi
