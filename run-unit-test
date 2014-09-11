@@ -12,6 +12,6 @@ else
     BASENAME=${BASENAME##*/}
     UNIT_TEST="/home/lanes/Homeworks/hw1.unit-tests/${BASENAME}.unit_test.sh"
 
-    ${UNIT_TEST}
+    /home/lanes/Homeworks/hw1.unit-tests/run-test ${UNIT_TEST}
 
 fi
